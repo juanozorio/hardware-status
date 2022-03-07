@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1">
+    <link rel="icon" href="https://img.icons8.com/fluency/32/000000/node-js.png"/>
+    <%- myCss.style %>
+    <title>Hardware Status</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Processador</td>
+                <td><%= status.cpu %></td>
+            </tr>
+            <tr>
+                <td>Arquitetura</td>
+                <td><%= status.arch %></td>
+            </tr>
+            <tr>
+                <td>Sistema Operacional</td>
+                <td><%= status.os %></td>
+            </tr>
+            <tr>
+                <td>Memória Total</td>
+                <td><%= status.totalRam %></td>
+            </tr>
+            <tr>
+                <td>Memória Livre</td>
+                <td><%= status.freeRam %></td>
+            </tr>
+            <tr>
+                <td>Velocidade da Memória</td>
+                <td><%= status.speedRam %></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
