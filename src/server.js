@@ -32,4 +32,4 @@ app.get("/", (req,res) => {
     })
 });
 
-app.listen(3080, () => console.log("Server is Running!"));
+app.listen(process.env.PORT || 3080, () => console.log("Server is Running!"));
