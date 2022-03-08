@@ -24,5 +24,7 @@ Pronto! Agora devemos acessar o localhost:
 
 > http://localhost:3080/
 
-![infoExample](/images/infosHardware.jpg "Hardware Status")
 
+
+
+![infoExample](./images/infosHardware.JPG "Hardware Status")
