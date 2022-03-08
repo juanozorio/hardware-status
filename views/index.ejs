@@ -8,31 +8,32 @@
     <title>Hardware Status</title>
 </head>
 <body>
-    <div>
+    <h1 id="titulo">Hardware Status</h1>
+    <div class="container">
         <table>
             <tr>
                 <td>Processador</td>
-                <td><%= status.cpu %></td>
+                <td class="values"><%= status.cpu %></td>
             </tr>
             <tr>
                 <td>Arquitetura</td>
-                <td><%= status.arch %></td>
+                <td class="values"><%= status.arch %></td>
             </tr>
             <tr>
                 <td>Sistema Operacional</td>
-                <td><%= status.os %></td>
+                <td class="values"><%= status.os %></td>
             </tr>
             <tr>
                 <td>Memória Total</td>
-                <td><%= status.totalRam %></td>
+                <td class="values"><%= status.totalRam %></td>
             </tr>
             <tr>
                 <td>Memória Livre</td>
-                <td><%= status.freeRam %></td>
+                <td class="values"><%= status.freeRam %></td>
             </tr>
             <tr>
                 <td>Velocidade da Memória</td>
-                <td><%= status.speedRam %></td>
+                <td class="values"><%= status.speedRam %></td>
             </tr>
         </table>
     </div>
